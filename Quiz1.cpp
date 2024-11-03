@@ -22,10 +22,7 @@ class Odometer {
         MilesDriven+=x;
     }
     float numOfGallons() {
-       return (FuelEfficencyMilesDriven);
-    }
-    int milesDriven() {
-        return MilesDriven;
+       return (MilesDriven/FuelEfficencyMilesDriven);
     }
 };
 int main() {
